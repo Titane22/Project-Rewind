@@ -1,0 +1,63 @@
+# Visual Studio files
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Unreal Generated Files
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Large asset files
+*.uasset
+*.ubulk
+*.umap
+*.upk
+*.udk
+*.pak
+
+# Raw Content files
+*.fbx
+*.3ds
+*.psd
+*.png
+*.mp3
+*.wav
+*.xcf
+*.jpg
+*.tga
+*.cubemap
+*.hdr
+
+# Video files
+*.mp4
+*.mov
+*.avi
+*.wmv
+
+# Build files
+Build/*
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+
+# Cache files
+*_BuiltData.uasset
+*.hot-reload.dat
+
+# Don't ignore icon files in Build
+!Build/**/*.ico
+
+# Other large files
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
